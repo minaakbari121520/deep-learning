@@ -1,1 +1,17 @@
+The usage of this code is to perform real-time pose estimation on video data. It utilizes the MediaPipe library, which provides pre-trained models for detecting and tracking human poses. The code captures frames from a video source (either the webcam or a video file) and processes each frame to detect the pose landmarks using the MediaPipe pose estimation model.
 
+The detected pose landmarks represent specific points on the human body, such as the nose, shoulders, elbows, wrists, hips, knees, and ankles. These landmarks can be used for various applications, including:
+
+Fitness and exercise tracking: The pose landmarks can be used to track and analyze body movements during exercises or fitness routines, allowing for real-time feedback or performance assessment.
+
+Gesture recognition: By analyzing the position and movement of specific body parts, the code can be extended to recognize gestures and perform actions based on those gestures.
+
+Motion tracking: The pose landmarks can be used to track the movement of a person in a video, which can be useful in applications such as motion capture, action recognition, or surveillance.
+
+Augmented reality (AR): The pose landmarks can be used to overlay virtual objects or effects on specific body parts, enabling augmented reality experiences.
+
+Human-computer interaction (HCI): The pose landmarks can be used as input for controlling interactive applications, such as games or virtual reality experiences, by mapping the detected poses to corresponding actions or commands.
+
+The code displays the processed frames with the detected pose landmarks overlaid using OpenCV's drawing functions. It also prints the coordinates of each detected pose landmark on the console for debugging or further analysis.
+
+By running this code with a compatible video source, you can visualize and analyze human poses in real-time or process pre-recorded videos for pose estimation purposes.
